@@ -45,7 +45,6 @@ class CardProduct extends StatelessWidget {
                         color: Constants().primaryColor.withOpacity(0.5),
                         spreadRadius: 1,
                         blurRadius: 5,
-                        offset: const Offset(0, 3),
                       ),
                     ],
                   ),

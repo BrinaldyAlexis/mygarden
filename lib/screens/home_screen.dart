@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mygarden/constants.dart';
 import 'package:mygarden/models/category.dart';
+import 'package:mygarden/screens/cart_screen.dart';
 import 'package:mygarden/widgets/grid_products.dart';
+import 'package:badges/badges.dart' as badges;
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -18,9 +20,20 @@ class HomeScreen extends StatelessWidget {
         ),
         title: Image.asset('assets/logo-2.png'),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.grid_view),
-            onPressed: (){},
+          Stack(
+            children: [
+              IconButton(
+                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const CartScreen())),
+                icon: const Icon(Icons.shopping_cart),
+              ),
+              const Positioned(
+                top: 0,
+                right: 5,
+                child: badges.Badge(
+                  badgeContent: Text('4', style: TextStyle(color: Colors.white)),
+                )
+              )
+            ],
           ),
         ],
       ),
