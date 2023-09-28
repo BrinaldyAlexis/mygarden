@@ -7,9 +7,8 @@
 "Here I attach some design images."
 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Home Screen](https://raw.githubusercontent.com/BrinaldyAlexis/mygarden/main/assets/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202023-09-28%20at%2018.01.12.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Product Screen](https://raw.githubusercontent.com/BrinaldyAlexis/mygarden/main/assets/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202023-09-28%20at%2018.01.17.png)
+
+![Cart Screen](https://raw.githubusercontent.com/BrinaldyAlexis/mygarden/main/assets/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202023-09-28%20at%2018.02.53.png)
