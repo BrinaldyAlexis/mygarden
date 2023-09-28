@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:mygarden/constants.dart';
-import 'package:mygarden/models/plants.dart';
+import 'package:mygarden/models/product.dart';
 
 class CardProduct extends StatelessWidget {
   const CardProduct({
     super.key,
-    required this.plant,
+    required this.product,
   });
 
-  final Plant plant;
+  final Product product;
 
   @override
   Widget build(BuildContext context) {
@@ -23,17 +23,17 @@ class CardProduct extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Center(child: Image.asset(plant.images[0], height: 100, fit: BoxFit.fitWidth)),
+            Center(child: Image.asset(product.images[0], height: 100, fit: BoxFit.fitWidth)),
             const SizedBox(height: 10),
-            Text(plant.name, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600)),
+            Text(product.name, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600)),
             const SizedBox(height: 5),
-            Text(plant.description, style: const TextStyle(fontSize: 14, color: Colors.grey)),
+            Text(product.description, style: const TextStyle(fontSize: 14, color: Colors.grey)),
             const SizedBox(height: 5),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text('\$${plant.price}', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600, color: Constants().primaryColor)),
+                Text('\$${product.price}', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600, color: Constants().primaryColor)),
                 Container(
                   padding: const EdgeInsets.all(8),
                   alignment: Alignment.center,

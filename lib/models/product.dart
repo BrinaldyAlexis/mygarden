@@ -1,12 +1,12 @@
 
-class Plant {
+class Product {
 
   final String name;
   final String description;
   final List<String> images;
   final double price;
 
-  Plant(
+  Product(
     {
       required this.name,
       required this.description,
@@ -17,8 +17,8 @@ class Plant {
 
 }
 
-  List<Plant> featuredProducts = [
-    Plant(
+  List<Product> featuredProducts = [
+    Product(
       name: 'Agave',
       description: 'Natural Plant', 
       images: [
@@ -28,7 +28,7 @@ class Plant {
       ],
       price: 20.00
     ),
-    Plant(
+    Product(
       name: 'Dieffenbachia',
       description: 'Artificial Plant', 
       images: [
@@ -38,7 +38,7 @@ class Plant {
       ],
       price: 29.99
     ),
-    Plant(
+    Product(
       name: 'Philodendron',
       description: 'Artificial Plant', 
       images: [
@@ -48,7 +48,7 @@ class Plant {
       ],
       price: 24.99
     ),
-    Plant(
+    Product(
       name: 'Sansevieria',
       description: 'Natural Plant', 
       images: [

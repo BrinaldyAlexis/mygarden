@@ -57,7 +57,7 @@ class HomeScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 30,),
                   decoration: BoxDecoration(
                     color: isSelected ? Constants().primaryColor : Colors.white,
-                    borderRadius:  const BorderRadius.all(Radius.circular(5))
+                    borderRadius:  const BorderRadius.all(Radius.circular(10))
                   ),
                   child: Text(category.name, style: TextStyle(color: isSelected ? Colors.white : Constants().primaryColor, fontSize: 18, fontWeight: FontWeight.w600))
                 );
