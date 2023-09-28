@@ -1,12 +1,11 @@
-# mygarden
+# MyGarden UI Design
 
-A new Flutter project.
+"It is a simple and basic design of an online plant store made in Flutter. This design simulates a home, product, and cart screen of an online plant store."
 
-## Getting Started
+## Details
 
-This project is a starting point for a Flutter application.
+"Here I attach some design images."
 
-A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
